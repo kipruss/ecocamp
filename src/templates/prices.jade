@@ -1,0 +1,53 @@
+extends ./layout.jade
+
+block title
+    title Цены - Экокемпинг Лесная Сказка: отдых на берегу Волги
+
+block menu
+    li
+        a(href='index.html') Услуги
+    li.active
+        a(href='prices.html') Цены
+    li
+        a(href='photo.html') Фото
+    li
+        a(href='contact.html') Контакты
+
+block content
+    .container.prices
+        h3 Стоимость услуг
+        .col-sm-12
+            table.table.table-bordered
+                thead
+                    tr
+                        th Наименование
+                        th(colspan='2') Цена
+                tbody
+                    tr
+                        td(rowspan='3') Место под палатку
+                        td Взрослые и дети старше 14 лет
+                        td
+                            strong 200₽&nbsp;
+                            | с человека
+                    tr
+                        td Дети с 10 до 14 лет
+                        td
+                            strong 100₽&nbsp;
+                            | с человека
+                    tr
+                        td Дети до 10 лет
+                        td Бесплатно
+                    tr
+                        td Мангалы
+                        td(colspan='2') Бесплатно
+                    tr
+                        td Столы, лавочки
+                        td(colspan='2') Бесплатно
+                    tr
+                        td Пляж
+                        td(colspan='2') Бесплатно
+                    tr
+                        td Парковка
+                        td(colspan='2') Бесплатно
+
+
