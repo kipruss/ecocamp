@@ -1,7 +1,3 @@
 /node_modules
 /.sass-cache
-/build
-/work
-/manifest
-*.sublime-project
-*.sublime-workspace
+
